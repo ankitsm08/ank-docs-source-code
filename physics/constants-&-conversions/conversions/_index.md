@@ -29,7 +29,7 @@ weight: 200
 
 $\begin{aligned}
 1 \:m &= 39.37( \approx 243/8) \:in &&= 3.28( \approx 105/32) \:ft &&= 1.094( \approx 11/10) \:yd \\
-1 \:in &= 2.54( \approx 2/5) \:cm &&= 1/12 \:ft \\
+1 \:in &= 2.54 \:cm &&= 1/12 \:ft \\
 1 \:ft &= 12 \:in &&= 0.3048 \:m \\
 1 \:km &= 0.6214 \:mi &&= 3281 \:ft \\
 1 \:mi &= 5280 \:ft &&= 1.609 \:km \\
@@ -96,7 +96,7 @@ $\begin{aligned}
 1 \:atm &= 101.325 \:kPa &&= 1.013 \:bar &&= 760 \:\text{mmHg (Torr)} \\
 1 \:bar &= 10^2 \:kPa &&= 14.5 \:psi \\
 1 \:psi &= 6.895 \:kPa \\
-1 \:\text{Torr} &= 0.133 \:Pa \quad (\vec{g} = 9.80665 \:m/s^2)
+1 \:\text{Torr} &= 0.133 \:Pa && (\vec{g} = 9.80665 \:m/s^2)
 \end{aligned}$
 
 ### Work/Heat
@@ -122,7 +122,7 @@ $\begin{aligned}
 1^\circ \text{ (degree)} &= \dfrac{\pi}{180} \:\text{rad} &&= 0.01745 \:\text{rad}  \\
 1^\circ &= 60'\text{ (minutes)} \\ 
 1' &= 60''\text{ (seconds)} \\
-1 \:\text{rad} &= \dfrac{180^\circ}{\pi} \: &&= 57.30 \:\text{rad} \\
+1 \:\text{rad} &= \dfrac{180^\circ}{\pi} \: &&= 57.30^\circ \\
 1 \:\text{revolution} &= 360 \:{}^\circ &&= 2 \pi \:\text{rad} \\
 1 \:\text{rev/min (rpm)} &= 0.1047\:\text{rad/s}
 \end{aligned}$
