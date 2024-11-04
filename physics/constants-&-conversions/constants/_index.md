@@ -1,0 +1,68 @@
+---
+menuPre: " "
+title: 'Constants'
+description: 'Constants'
+weight: 1
+---
+
+## Universal / Physical Constants
+
+|                      Symbol                      |                 Quantity                 |                                                       Value | Unit                                                                                                                            |             Dimension             |
+| :----------------------------------------------: | :--------------------------------------: | ----------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------: |
+|                       $c$                        |         Speed of light in vacuum         |        $3 \times 10^{8}$ <br> $\text{(exact) } 299,792,458$ | $\mathrm{m \, s^{-1}}$                                                                                                          |        $\mathrm{LT^{-1}}$         |
+|                       $h$                        |             Planck constant              |                                     $6.626 \times 10^{-34}$ | $\mathrm{J \, s}$                                                                                                               |      $\mathrm{ML^{2}T^{-1}}$      |
+|                       $hc$                       |          Photon Energy constant          |                                                      $1242$ | $\mathrm{eV \cdot nm}$                                                                                                          |      $\mathrm{ML^{2}T^{-1}}$      |
+|            $\hbar = \dfrac{h}{2\pi}$             |         Reduced Planck constant          |                                     $1.055 \times 10^{-34}$ | $\mathrm{J \, s}$                                                                                                               |      $\mathrm{ML^{2}T^{-1}}$      |
+|                     $\mu_0$                      |       Vacuum Magnetic permeability       |                                       $4\pi \times 10^{-7}$ | $\mathrm{N \, A^{-2}}$                                                                                                          |     $\mathrm{MLT^{-2}I^{-2}}$     |
+|     $\varepsilon_0 = \dfrac{1}{\mu_0\,c^2}$      |       Vacuum Electric permittivity       |                                     $8.854 \times 10^{-12}$ | $\mathrm{F \, m^{-1}}$                                                                                                          | $\mathrm{M^{-1}L^{-3}T^{4}I^{2}}$ |
+|         $Z_0 = \dfrac{1}{\varepsilon_0}$         |    Characteristic impedance of vacuum    |                                        $3.77 \times 10^{2}$ | $\mathrm{\Omega}$                                                                                                               |   $\mathrm{ML^{2}T^{-3}I^{-2}}$   |
+|                       $G$                        |    Newtonian constant of gravitation     |                                      $6.67 \times 10^{-11}$ | $\mathrm{m^{3} \, kg^{-1} \, s^{-2}}$                                                                                           |   $\mathrm{L^{3}M^{-1}T^{-2}}$    |
+|               $R = \dfrac{PV}{nT}$               |      Molar / Universal Gas constant      | $8.314 \approx 25/3$ <br> $0.082 \approx 1/12$ <br> $62.36$ | $\mathrm{J \, mol^{-1} \, K^{-1}}$ <br> $\mathrm{L \,atm \, mol^{-1} \, K^{-1}}$ <br> $\mathrm{L \,torr \, mol^{-1} \, K^{-1}}$ |   $\mathrm{ML^{2}T^{-2}K^{-1}}$   |
+|                      $N_A$                       |            Avagadro constant             |                                     $6.022 \times 10^{-23}$ | $\mathrm{mol^{-1}}$                                                                                                             |   $\mathrm{ML^{2}T^{-2}K^{-1}}$   |
+|                     $N_A\,h$                     |          Molar Planck constant           |                                         $4 \times 10^{-10}$ | $\mathrm{J \, s \, mol^{-1}}$                                                                                                   |   $\mathrm{ML^{2}T^{-2}K^{-1}}$   |
+|              $k_B = \dfrac{R}{N_A}$              |            Boltzmann constant            |                                      $1.38 \times 10^{-23}$ | $\mathrm{J \, K^{-1}}$                                                                                                          |   $\mathrm{ML^{2}T^{-2}K^{-1}}$   |
+|                     $\sigma$                     |        Stefan–Boltzmann constant         |                                       $5.67 \times 10^{-8}$ | $\mathrm{W \, m^{-2} \, K^{-4}}$                                                                                                |     $\mathrm{MT^{-3}K^{-4}}$      |
+|              $\mathrm{F} = N_A\,e$               |             Faraday constant             |                                        $9.65 \times 10^{4}$ | $\mathrm{C \, mol^{-1}}$                                                                                                        |     $\mathrm{MT^{-3}K^{-4}}$      |
+|                      $e^-$                       |            Elementary Charge             |                                     $1.602 \times 10^{-19}$ | $\mathrm{C}$                                                                                                                    |           $\mathrm{TI}$           |
+|                      $m_e$                       |              Electron mass               |                                      $9.11 \times 10^{-31}$ | $\mathrm{kg}$                                                                                                                   |           $\mathrm{M}$            |
+|                      $m_p$                       |               Proton mass                |                                    $1.6726 \times 10^{-27}$ | $\mathrm{kg}$                                                                                                                   |           $\mathrm{M}$            |
+|                      $m_n$                       |               Neutron mass               |                                    $1.6749 \times 10^{-27}$ | $\mathrm{kg}$                                                                                                                   |           $\mathrm{M}$            |
+|                   $m_p / m_e$                    |      Proton-to-electron mass ratio       |                                        $1.84 \times 10^{3}$ | $-$                                                                                                                             |           Dimensionless           |
+|                    $m_{\mu}$                     |                Muon mass                 |                                      $1.88 \times 10^{-28}$ | $\mathrm{kg}$                                                                                                                   |           $\mathrm{M}$            |
+|                    $m_{\tau}$                    |                 Tau mass                 |                                      $3.16 \times 10^{-27}$ | $\mathrm{kg}$                                                                                                                   |           $\mathrm{M}$            |
+|      $\alpha = \dfrac{e^2}{2\epsilon_0hc}$       |         Fine Structure constant          |               $7.297 \times 10^{-3} \approx \dfrac{1}{137}$ | $-$                                                                                                                             |           Dimensionless           |
+|                  $\alpha^{-1}$                   |     Inverse fine structure constant      |                                                   $137.036$ | $-$                                                                                                                             |           Dimensionless           |
+|    $m_u = \dfrac{m({}^{12}\mathrm{C})}{N_A}$     |             Atomic mass unit             |                                      $1.66 \times 10^{-27}$ | $\mathrm{kg}$                                                                                                                   |           $\mathrm{M}$            |
+|          $\mu_B = \dfrac{he}{4\pi m_e}$          |              Bohr Magneton               |                                     $9.274 \times 10^{-24}$ | $\mathrm{J \, T^{-1}}$                                                                                                          |      $\mathrm{L^{2}IT^{-2}}$      |
+| $R_{\infty} = \dfrac{m_e e^4}{8\epsilon_0 h^3c}$ |             Rydberg constant             |                                        $1.10 \times 10^{7}$ | $\mathrm{m^{-1}}$                                                                                                               |         $\mathrm{L^{-1}}$         |
+|                 $R_{\infty}\,hc$                 |          Rydberg Unit of Energy          |                          $2.18 \times 10^{-18}$ <br> $13.6$ | $\mathrm{J}$ <br> $\mathrm{eV}$                                                                                                 |         $\mathrm{L^{-1}}$         |
+|     $a_0 = \dfrac{h\epsilon_0}{\pi e^2 m_e}$     |               Bohr radius                |                                      $5.29 \times 10^{-11}$ | $\mathrm{m}$                                                                                                                    |           $\mathrm{L}$            |
+|                       $b$                        |  Wien wavelength displacement constant   |                                       $2.90 \times 10^{-3}$ | $\mathrm{m \, K}$                                                                                                               |           $\mathrm{LK}$           |
+|                    $b^\prime$                    | Wien frequency displacement law constant |                                       $5.88 \times 10^{10}$ | $\mathrm{Hz \, K^{-1}}$                                                                                                         |      $\mathrm{T^{-1}K^{-1}}$      |
+|               $b_{\text{entropy}}$               |  Wien entropy displacement law constant  |                                       $3.00 \times 10^{-3}$ | $\mathrm{m \, K}$                                                                                                               |           $\mathrm{LK}$           |
+|                      $r_e$                       |        Classical electron radius         |                                      $2.82 \times 10^{-15}$ | $\mathrm{m}$                                                                                                                    |           $\mathrm{L}$            |
+|                 $E_{\text{ion}}$                 |      Ionization Energy of hydrogen       |                                      $2.18 \times 10^{-18}$ | $\mathrm{J}$                                                                                                                    |      $\mathrm{ML^{2}T^{-2}}$      |
+
+## Derived / Composite Constants
+
+|               Symbol               |                                                          Quantity                                                          |              Value | Unit         | Dimension |
+| :--------------------------------: | :------------------------------------------------------------------------------------------------------------------------: | -----------------: | :----------- | :-------: |
+| $V_{\text{molar}} = \dfrac{RT}{P}$ |                                               Molar Volume of Ideal Gas at:                                                | $\text{See Below}$ | $-$          |    $-$    |
+|     (normal) $V_{\text{STP}}$      | $\begin{align}T = 0^{\circ}\mathrm{\,C} = 273.15\mathrm{\,K}\:,&& P = 101.325\mathrm{\,kPa} = 1\mathrm{\,atm}\end{align}$  |             $22.4$ | $\mathrm{L}$ |  $L^{3}$  |
+|      (new)  $V_{\text{STP}}$       | $\begin{align}T = 0^{\circ}\mathrm{\,C} = 273.15\mathrm{\,K}\:,&& P = 100\mathrm{\,kPa} = 0.987\mathrm{\,atm}\end{align}$  |             $22.7$ | $\mathrm{L}$ |  $L^{3}$  |
+|          $V_{\text{NTP}}$          | $\begin{align}T = 20^{\circ}\mathrm{\,C} = 293.15\mathrm{\,K}\:,&& P = 101.325\mathrm{\,kPa} = 1\mathrm{\,atm}\end{align}$ |             $24.0$ | $\mathrm{L}$ |  $L^{3}$  |
+|         $V_{\text{SATP}}$          | $\begin{align}T = 25^{\circ}\mathrm{\,C} = 298.15\mathrm{\,K}\:,&& P = 101.325\mathrm{\,kPa} = 1\mathrm{\,atm}\end{align}$ |             $24.5$ | $\mathrm{L}$ |  $L^{3}$  |
+
+## Empirical / Local Constants
+
+|       Symbol       |              Quantity               |  Value | Unit                   |          Dimension           |
+| :----------------: | :---------------------------------: | -----: | :--------------------- | :--------------------------: |
+| $g_{\text{earth}}$ | Earth's acceleration due to gravity | $9.81$ | $\mathrm{m \, s^{-2}}$ | $\mathrm{L^{3}M^{-1}T^{-2}}$ |
+
+## Sources
+
+- [Wikipedia: List of physical constants](https://en.wikipedia.org/wiki/List_of_physical_constants)
+
+---
+
+**Note:** This page includes several unconventional approximations, often tailored for exams where calculators aren’t permitted.
