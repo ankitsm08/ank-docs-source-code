@@ -159,3 +159,10 @@ This documentation site is built using **Hugo** and the **Relearn theme**. To en
    - Feel free to improve on any entry, but avoid large-scale changes without discussion. Let’s keep it a friendly, collaborative space!
 
 Happy contributing! 😊
+
+## Contact
+
+If you have questions or concerns about this Code of Conduct, please reach out via one of the following methods:
+
+- GitHub Issues: Please open an issue in the repository.
+- Discussions: Feel free to post in the Discussions section of the repository for any concerns or suggestions.
