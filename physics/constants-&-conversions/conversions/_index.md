@@ -92,11 +92,11 @@ $\begin{aligned}
 ### Pressure
 
 $\begin{aligned}
-1 \:Pa &= 1 \:N/m^2 &&= 10^{-5} \:bar &&= 9.869 \times 10^{-6} \:atm \\
-1 \:atm &= 1.013 \times 10^5 \:Pa &&= 760 \:mmHg &&= 1.013 \:bar &&= 760 \:\text{Torr} \\
-1 \:bar &= 10^5 \:Pa &&= 14.504 \:psi \\
-1 \:psi &= 6894.76 \:Pa \\
-1 \:\text{Torr} &= 133.322 \:Pa
+1 \:kPa &= 10^3 \:N/m^2 &&= 10^{-2} \:bar &&= 9.87 \times 10^{-3} \:atm \\
+1 \:atm &= 101.325 \:kPa &&= 1.013 \:bar &&= 760 \:\text{mmHg (Torr)} \\
+1 \:bar &= 10^2 \:kPa &&= 14.5 \:psi \\
+1 \:psi &= 6.895 \:kPa \\
+1 \:\text{Torr} &= 0.133 \:Pa \quad (\vec{g} = 9.80665 \:m/s^2)
 \end{aligned}$
 
 ### Work/Heat
