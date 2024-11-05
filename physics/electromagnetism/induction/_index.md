@@ -34,7 +34,7 @@ weight: 500
 
 - Electromagnetic damping.
 - Circular currents induced in conductors due to changing magnetic flux.
-- $\left|i\right| \propto -\dfrac{d\Phi}{dt}$.
+- $i \propto \left|\dfrac{d\Phi}{dt}\right|$.
 
 ### Self-Induction
 
