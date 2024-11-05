@@ -146,14 +146,18 @@ To make editing smoother, we recommend these extensions for **[VS Code](https://
 
 The repository is organized into folders by subject, making it easy to navigate and find the information you need. Here’s how it’s structured:
 
-- **content/**  
-  This is the main folder where all the documentation lives.
+- **repo/**  
+  This is the main base repository where all the documentation lives.  
+  Inside this repo, you'll find subfolders for each subject:
 
-  - **subjects/**  
-    Inside this folder, you'll find subfolders for each subject:
-    - **physics/**
-    - **maths/**
-    - **chemistry/**
+  - **(subjects)**  
+     -  **physics/**
+     - **maths/**
+     - **chemistry/**
+
+  - Inside each subject folder, we have sections(topics) and subsections(subtopics).
+  - Each directory has its own `_index.md` file to serve as a page.  
+    The `_index.md` file is a Markdown file that contains the content for the directory (page in the site).
 
 ### Example directory structure
 ```
@@ -201,7 +205,7 @@ repo
          ...
 ```
 
-Each subject folder contains an `_index.md` file, which serves as an overview for that subject. The front matter in this file looks like this:
+Each subject folder contains an `_index.md` file, which creates a page in the site which lists the sections of the subject. The front matter in this file looks like this:
 
 ```yaml
 ---
@@ -210,12 +214,16 @@ title: 'Physics'
 description: 'Physics'
 weight: 200
 ---
+
+{{% children containerstyle="div" style="h2" %}}
 ```
 
 - **menuPre**: This is an optional field that allows you to add an icon to the subject in the menu (using Font Awesome icons).
 - **title**: This is the name of the subject that will be displayed on the site.
 - **description**: A brief description of the subject, which can help users understand what content to expect.
 - **weight**: This determines the order of subjects in the menu. A lower number means it will appear higher up in the list.
+- **children shortcode**: This lists the subsections of the subject.
+
 
 For subsections of a subject or sections of the subject itself, there will also be subfolders with their own `_index.md` files. For example, the **maths/** folder might contain a subfolder called **trigonometry/** with its own `_index.md` file that looks like this:
 
@@ -226,18 +234,21 @@ title: 'Constants & Conversions'
 description: 'Constants & Conversions'
 weight: 100
 ---
+
+{{% children containerstyle="div" style="h3" %}}
 ```
 
 In this case:
 
-- menuPre: This is empty(with a space for padding), meaning no icon will be displayed for this subsection.
-- title: This is the name of the subsection that will be shown on the site.
-- description: A brief description specific to the subsection.
-- weight: This controls the order of subsections within the subject, allowing you to organize them in a way that makes sense for users.
+- **menuPre**: This is empty(with a space for padding), meaning no icon will be displayed for this subsection.
+- **title**: This is the name of the subsection that will be shown on the site.
+- **description**: A brief description specific to the subsection.
+- **weight**: This controls the order of subsections within the subject, allowing you to organize them in a way that makes sense for users.
+- **children shortcode**: This lists the subsections of the section.
 
 ### Tips on Using the Site-Specific Syntax (Hugo)
 
-This documentation site is built using **Hugo** and the **Relearn theme**. To ensure compatibility with the site, check out the Relearn theme's syntax guidelines: [**Relearn Hugo Theme Documentation**](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/index.html).
+This documentation site is built using **Hugo** and the **Relearn theme**. To ensure compatibility with the site, check out the Relearn theme's syntax guidelines: [**Relearn Hugo Theme Documentation**](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/index.html) if you want to add advanced features.
 
 ## FAQ for New Contributors
 
