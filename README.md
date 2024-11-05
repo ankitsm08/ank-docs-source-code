@@ -6,31 +6,129 @@ draft: true
 
 Welcome! This is the public repository for our documentation site's content. Here, you'll can edit the notes found on the site. Feel free to jump in, make edits, and contribute to building a valuable resource for everyone studying these topics.
 
-### How to Contribute
+---
 
-Want to make some edits or add new content? Great! Just follow these simple steps:
+## How to Contribute
 
-1. **Clone or Fork the Repository**  
-   - **Clone the repo**: 
-     ```bash
-     git clone https://github.com/ankitsm08/ank-docs-source-code.git
-     ```
-   - Or **fork** the repo on GitHub to create your own copy and edit from there.  
-   - After cloning, navigate to the `content` folder where you’ll find all the markdown files that make up the documentation.
+Ready to make some edits or add new content? Awesome! Just follow these simple steps:
 
-2. **Edit the Markdown Files**  
+1. **Fork the Repository**
+
+   A **fork** is a copy of this repository under your GitHub account. This allows you to freely make changes without affecting the original repository. Here’s how:
+
+   - Go to the repository page: [ank-docs-source-code](https://github.com/ankitsm08/ank-docs-source-code).
+   - Click the **Fork** button at the top right corner of the page. This will create a copy of the repository under your GitHub profile.
+
+2. **Clone Your Forked Repository**
+
+   Once you’ve forked the repository, clone it to your local machine to start making edits:
+
+   ```bash
+   git clone https://github.com/<your-username>/ank-docs-source-code.git
+   ```
+
+   Replace `<your-username>` with your GitHub username. This will download your forked copy to your local system.
+
+   Navigate into the cloned directory:
+
+   ```bash
+   cd ank-docs-source-code
+   ```
+
+3. **Create a New Branch for Your Edits**
+
+   It’s best to make your changes in a separate branch so that your work stays organized. To create a new branch, run:
+
+   ```bash
+   git checkout -b your-branch-name
+   ```
+   Replace `your-branch-name` with a descriptive name for your branch, such as `update-physics-notes` or `add-math-concepts`.
+
+4. **Edit the Markdown Files**
+
+   - Open the content folder where all the markdown files are stored.
+
    - Open any markdown (`.md`) file in **[VS Code](https://code.visualstudio.com/)** or any other markdown editor.
+  
+     - You can view the preview of your edits by clicking the **Markdown Preview** button at the top right of the editor (VS Code).
+  
    - Alternatively, use this **[online Markdown & MathJax editor](https://kerzol.github.io/markdown-mathjax/editor.html)** if you prefer a browser-based tool.
-   - Once in your editor, you can add new content, update existing entries, or tweak the formatting as needed.
 
-3. **Push Your Changes**  
-   - To save your changes to GitHub, **commit** and **push** your edits:
-     ```bash
-     git add .
-     git commit -m "Your descriptive commit message"
-     git push
-     ```
-   - If you forked the repo, submit a **pull request** from your forked version for review.
+   - Feel free to add new files, update existing content, or improve formatting as needed.
+
+5. **Stage, Commit, and Push Your Changes**
+
+   After making your changes, use these commands to save and upload them to GitHub:
+
+   1. Stage your changes:
+      ```bash
+      git add .
+      ```
+
+   2. Commit your changes with a message describing what you did:
+      ```bash
+      git commit -m "Added new content to physics notes"
+      ```
+
+   3. Push your changes to your forked repository on GitHub:
+      ```bash
+      git push origin your-branch-name
+      ```
+
+6. **Stay up-to-date with the Main Repository**
+   
+   To stay up-to-date with the main repository, follow these steps:
+   
+   1. Add the Main Repository as an Upstream Remote
+
+      First, we need to link your local clone to the main repository (the one you forked from), so you can pull updates from it.
+
+      ```bash
+      git remote add upstream https://github.com/ankitsm08/ank-docs-source-code.git
+      ```
+      Here, `upstream` is a label pointing to the main repository. Now your local clone has two remotes:
+
+      - `origin`: your fork on GitHub
+      - `upstream`: the main repository
+   
+   2. Fetch Updates from the Main Repository
+
+      Get the latest changes from the `upstream` repository:
+
+      ```bash
+      git fetch upstream
+      ```
+
+      This fetches any new commits from the main repository without merging them yet.
+
+   3. Merge Changes from Upstream into Your Local Branch
+
+      To update your fork’s `main` branch, switch to it and merge the `upstream` changes:
+
+      ```bash
+      git checkout main
+      git merge upstream/main
+      ```
+      This merges the changes from the main repository’s `main` branch into your fork’s `main` branch on your local machine.
+
+   4. Push the Updated Main Branch to Your Fork
+
+      Finally, push the updated local `main` branch to your GitHub fork to bring it up-to-date:
+
+      ```bash
+      git push origin main
+      ```
+
+7. **Create a Pull Request**
+
+   Now that your changes are pushed to GitHub, it’s time to submit a Pull Request (PR) to merge your edits into the main repository.
+
+   1. Go to your forked repository on GitHub.
+   2. You should see a message offering to create a Pull Request for your recently pushed branch. Click on Compare & pull request.
+   3. Add a title and description for your PR explaining your changes.
+   4. Click Create pull request to submit it.
+   
+   Your PR will be reviewed, and once approved, it will be merged into the main repository. 🎉
 
 ### Recommended Extensions for Easy Editing
 
@@ -44,7 +142,7 @@ To make editing smoother, we recommend these extensions for **[VS Code](https://
 - **Markdown YAML Preamble**: Assists with YAML front matter.
 - **Markdown+Math**: Enables MathJax for easy mathematical notation.
 
-### Repository Structure
+## Repository Structure
 
 The repository is organized into folders by subject, making it easy to navigate and find the information you need. Here’s how it’s structured:
 
@@ -57,7 +155,7 @@ The repository is organized into folders by subject, making it easy to navigate 
     - **maths/**
     - **chemistry/**
 
-#### Example directory structure
+### Example directory structure
 ```
 repo
 │
@@ -141,7 +239,23 @@ In this case:
 
 This documentation site is built using **Hugo** and the **Relearn theme**. To ensure compatibility with the site, check out the Relearn theme's syntax guidelines: [**Relearn Hugo Theme Documentation**](https://mcshelby.github.io/hugo-theme-relearn/shortcodes/index.html).
 
-### Contribution & Maintenance Rules
+## FAQ for New Contributors
+
+### Why Create a New Branch in Your Fork?
+
+- Creating a branch for your changes is important for organization and version control. Instead of making all changes on the main main branch of your fork, each new feature or edit is created in its own branch, such as update-physics-notes.
+- This keeps your work separated, so if you decide not to pursue a change or make a mistake, you can abandon that branch without affecting anything else.
+- It’s especially useful if you’re making multiple contributions to the same repo; you can work on several things at once without merging unfinished work.
+
+### Why Push to Your Forked Repository First?
+- Pushing to your fork allows you to review your changes on GitHub and make sure they appear as expected. It’s like a final checkpoint before you formally suggest merging them into the main project.
+- This also avoids overwhelming the main repository with multiple incomplete changes and commits.
+
+### Why Not Directly Update the Main Repository?
+- Only trusted maintainers have direct write access to the main repository. This prevents unwanted edits and ensures a high standard for contributions.
+- It also maintains consistency. Multiple people making direct edits without review could lead to errors, conflicts, and confusion in the main project’s content.
+
+## Contribution & Maintenance Rules
 
 1. **Stay Organized**  
    - Keep entries clear and concise. If you’re adding a formula, a law, or a concept, ensure it has a title, description, and if possible, a worked example.
