@@ -18,7 +18,7 @@ $\displaystyle\int x^n \, dx = \dfrac{x^{n+1}}{n+1} + C$
 
 $\displaystyle\int |x|^n \, dx = \dfrac{x |x|^{n}}{n+1} + C$
 
-### 2. lnarithmic Integration  
+### 2. Logarithmic Integration  
 
 $\displaystyle\int \dfrac{f'(x)}{f(x)} \, dx = \ln |f(x)| + C$  
 
