@@ -51,6 +51,6 @@ $\begin{aligned}
 \displaystyle\int \dfrac{dx}{\sqrt{x^2 - a^2}} & = \ln \left| x + \sqrt{x^2 - a^2} \right| + C \\[25mu]
 \displaystyle\int \dfrac{dx}{x\sqrt{x^2 - a^2}} & = \dfrac{1}{a} \sec^{-1} \dfrac{x}{a} + C \\[25mu]
 \displaystyle\int \sqrt{a^2 - x^2} \, dx & = \dfrac{x}{2} \sqrt{a^2 - x^2} + \dfrac{a^2}{2} \sin^{-1} \dfrac{x}{a} + C \\[8mu]
-\displaystyle\int \sqrt{x^2 + a^2} \, dx & = \dfrac{x}{2} \sqrt{x^2 + a^2} + \dfrac{a^2}{2} \ln \left(x + \sqrt{x^2 + a^2}\right) + C \\[8mu]
-\displaystyle\int \sqrt{x^2 - a^2} \, dx & = \dfrac{x}{2} \sqrt{x^2 - a^2} - \dfrac{a^2}{2} \ln \left(x + \sqrt{x^2 - a^2}\right) + C \\[8mu]
+\displaystyle\int \sqrt{x^2 + a^2} \, dx & = \dfrac{x}{2} \sqrt{x^2 + a^2} + \dfrac{a^2}{2} \ln \left|x + \sqrt{x^2 + a^2}\right| + C \\[8mu]
+\displaystyle\int \sqrt{x^2 - a^2} \, dx & = \dfrac{x}{2} \sqrt{x^2 - a^2} - \dfrac{a^2}{2} \ln \left|x + \sqrt{x^2 - a^2}\right| + C \\[8mu]
 \end{aligned}$  
