@@ -1,5 +1,4 @@
 ---
-date: '2024-11-17T20:36:11+05:30'
 menuPre: " "
 title: 'Indefinite Integration'
 description: 'Indefinite Integration'
@@ -36,6 +35,8 @@ $\begin{aligned}
 \end{aligned}$
 
 ### 4. Exponential Function  
+
+$\displaystyle\int e^x(f(x)+f'(x)) \, dx = e^x f(x) + C$  
 
 $\displaystyle\int a^x \, dx = \dfrac{a^x}{\ln a} + C$  
 
