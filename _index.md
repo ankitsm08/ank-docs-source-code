@@ -22,7 +22,6 @@ Plunder freely an' carve yer name on it, me hearty – no coin needed! Binge it 
 
 ---
 
-## 📃 Table of Contents 📑
-
-> [!blue] Subjects / Categories
-> {{% children containerstyle="div" style="h3" %}}
+{{% notice style="blue" title="Subjects / Categories" icon="book" %}}
+{{% children containerstyle="div" style="h3" %}}
+{{% /notice %}} 
