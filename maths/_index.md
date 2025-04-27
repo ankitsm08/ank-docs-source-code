@@ -1,6 +1,7 @@
 ---
 menuPre: "<i class='fa-fw fas fa-calculator'></i> "
-title: 'Mathematics'
+title: Mathematics
+description: Mathematics
 weight: 100
 ---
 
