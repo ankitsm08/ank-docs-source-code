@@ -59,7 +59,7 @@ weight: 1
 | :----------------: | :---------------------------------: | -----: | :--------------------- | :--------------------------: |
 | $g_{\text{earth}}$ | Earth's acceleration due to gravity | $9.81$ | $\mathrm{m \, s^{-2}}$ | $\mathrm{L^{3}M^{-1}T^{-2}}$ |
 
-## Sources
+## References
 
 - [Wikipedia: List of physical constants](https://en.wikipedia.org/wiki/List_of_physical_constants)
 

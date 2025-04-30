@@ -58,7 +58,7 @@ weight: 300
 
 ---
 
-## Sources
+## References
 
 - [Physics Info: System International](https://physics.info/system-international/)
 - [Physics Info: System Gaussian](https://physics.info/system-gaussian/)

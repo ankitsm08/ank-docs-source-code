@@ -129,7 +129,7 @@ $\begin{aligned}
 
 ---
 
-## Sources
+## References
 
 - [Wikipedia: Metric Prefixes](https://en.wikipedia.org/wiki/Metric_prefix)
 - [Openstax Org: University Physics Volume 1](https://openstax.org/books/university-physics-volume-1/pages/b-conversion-factors)

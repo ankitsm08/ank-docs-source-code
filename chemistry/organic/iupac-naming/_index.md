@@ -218,6 +218,6 @@ Some oxoacids have **irregular naming**.
 
 ---
 
-## Sources
+## References
 
 - [Wikipedia: IUPAC Nomenclature](https://en.wikipedia.org/wiki/IUPAC_nomenclature_of_organic_chemistry)

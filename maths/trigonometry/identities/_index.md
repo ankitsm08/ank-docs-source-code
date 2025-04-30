@@ -275,7 +275,7 @@ $\begin{aligned}
 
 ---
 
-## Sources
+## References
 
 - [Wikipedia: Trigonometric Functions](https://en.wikipedia.org/wiki/Trigonometric_functions)
 - [Wikipedia: List of Trigonometric Identities](https://en.wikipedia.org/wiki/List_of_trigonometric_identities)
