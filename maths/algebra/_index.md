@@ -50,10 +50,14 @@ a^{\frac{m}{n}} & = \sqrt[n]{a^m} \\
 
 $\begin{aligned}
 (a + b)^2 & = a^2 + 2ab + b^2 \\
+& = (a - b)^2 + 4ab \\
 (a - b)^2 & = a^2 - 2ab + b^2 \\
+& = (a + b)^2 - 4ab \\
 a^2 + b^2 & = (a + b)^2 - 2ab \\
 & = (a - b)^2 + 2ab \\
 a^2 - b^2 & = (a - b)(a + b) \\
+(a + b)^2 + (a - b)^2 & = 2(a^2 + b^2) \\
+(a + b)^2 - (a - b)^2 & = 4ab \\
 (x + a)(x + b) & = x^2 + (a + b)x + ab \\
 (a + b + c)^2 & = a^2 + b^2 + c^2 + 2(ab + ac + bc) \\
 \end{aligned}$
@@ -94,12 +98,12 @@ the solution is given by the quadratic formula.
 
 $ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $
 
-Determinant: $ \Delta \text{ (or) } D = b^2 - 4ac $
+Discriminant: $ \Delta \text{ (or) } D = b^2 - 4ac $
 
 Nature of roots:
-- Distince real roots: $ \Delta > 0 $
+- Distinct real roots: $ \Delta > 0 $
 - Equal real roots: $ \Delta = 0 $
-- Dinstinct complex roots: $ \Delta < 0 $
+- Distinct complex roots: $ \Delta < 0 $
 
 ##### Completing the Square
 
