@@ -11,8 +11,9 @@ Common names are often used colloquially and in everyday life but lack a systema
 
 ## Resources
 
-> [!Orange] Note
-> This list **may and will** be updated in future as I add more resources.
+{{% notice style="orange" title="Note" icon="bulb" %}}
+This list **may and will** be updated in future as I add more resources.
+{{% /notice %}}
 
 ### PDFs
 
