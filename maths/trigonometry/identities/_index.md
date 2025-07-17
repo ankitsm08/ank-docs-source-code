@@ -235,25 +235,29 @@ ${\sqrt {\dfrac {1-\sin \theta }{1+\sin \theta }}}=\left|{\dfrac {1-\tan {\dfrac
 
 ## Special Cases 
 
-If $A+B+C=180^{\circ}=\pi$ , then
+If $\alpha+\beta+\gamma = 180^{\circ} = \pi $,  
+or, $\alpha, \beta, \gamma$ are angles of a $\Delta$ (triangle) , then
 
 $\begin{aligned}
-\sin2A+\sin2B+\sin2C & = 4\sin A\sin B\sin C \\
-\sin2A+\sin2B-\sin2C & = 4\cos A\cos B\sin C \\
-\cos2A+\cos2B+\cos2C & = -1-4\cos A\cos B\cos C \\
-\cos2A+\cos2B-\cos2C & = 1-4\sin A\sin B\cos C \\[20mu]
-\sin A+\sin B+\sin C & =4\cos\frac A2\cos\frac B2\cos\frac C2 \\
-\sin A+\sin B-\sin C & =4\sin\frac A2\sin\frac B2\cos\frac C2 \\
-\cos A+\cos B+\cos C & =1+4\sin\frac A2\sin\frac B2\sin\frac C2 \\
-\cos A+\cos B-\cos C & =-1+4\cos\frac A2\cos\frac B2\sin\frac C2 \\[20mu]
-\sin^2A+\sin^2B-\sin^2C & = 2\sin A\sin B\cos C \\
-\cos^2A+\cos^2B-\cos^2C & = 1-2\sin A\sin B\cos C \\
-\cos^2A+\cos^2B+\cos^2C & = 1-2\cos A\cos B\cos C \\
-\sin^2A+\sin^2B+\sin^2C & = 2+2\cos A\cos B\cos C \\[20mu]
-\tan A+\tan B+\tan C & = \tan A\tan B\tan C \\
-\cot B\cot C+\cot C\cot A+\cot A\cos B  & = 1 \\
-\tan\frac B2\tan\frac C2+\tan\frac C2\tan\frac A2+\tan\frac A2.\tan\frac B2 & = 1 \\
-\cot\frac A2+\cot\frac B2+\cot\frac C2 & = \cot\frac A2\cot\frac B2\cot\frac C2
+\sin{2\alpha}+\sin{2\beta}+\sin{2\gamma} & = 4\sin \alpha\sin \beta\sin \gamma \\
+\sin{2\alpha}+\sin{2\beta}-\sin{2\gamma} & = 4\cos \alpha\cos \beta\sin \gamma \\
+\cos{2\alpha}+\cos{2\beta}+\cos{2\gamma} & = -1-4\cos \alpha\cos \beta\cos \gamma \\
+\cos{2\alpha}+\cos{2\beta}-\cos{2\gamma} & = 1-4\sin \alpha\sin \beta\cos \gamma \\[20mu]
+\sin \alpha+\sin \beta+\sin \gamma & =4\cos\frac {\alpha}{2}\cos\frac {\beta}{2}\cos\frac {\gamma}{2} \\
+\sin \alpha+\sin \beta-\sin \gamma & =4\sin\frac {\alpha}{2}\sin\frac {\beta}{2}\cos\frac {\gamma}{2} \\
+\cos \alpha+\cos \beta+\cos \gamma & =1+4\sin\frac {\alpha}{2}\sin\frac {\beta}{2}\sin\frac {\gamma}{2} \\
+\cos \alpha+\cos \beta-\cos \gamma & =-1+4\cos\frac {\alpha}{2}\cos\frac {\beta}{2}\sin\frac {\gamma}{2} \\[20mu]
+\sin^2 \alpha+\sin^2 \beta-\sin^2 \gamma & = 2\sin \alpha\sin \beta\cos \gamma \\
+\cos^2 \alpha+\cos^2 \beta-\cos^2 \gamma & = 1-2\sin \alpha\sin \beta\cos \gamma \\
+\cos^2 \alpha+\cos^2 \beta+\cos^2 \gamma & = 1-2\cos \alpha\cos \beta\cos \gamma \\
+\sin^2 \alpha+\sin^2 \beta+\sin^2 \gamma & = 2+2\cos \alpha\cos \beta\cos \gamma \\[20mu]
+\sin^2{2\alpha}+\sin^2{2\beta}+\sin^2{2\gamma} & = 2-2\cos {2\alpha}\cos {2\beta}\cos {2\gamma} \\
+\cos^2{2\alpha}+\cos^2{2\beta}+\cos^2{2\gamma} & = 1+2\cos {2\alpha}\cos {2\beta}\cos {2\gamma} \\
+\sin^2\frac {\alpha}{2}+\sin^2\frac {\beta}{2}+\sin^2\frac {\gamma}{2} & = 1-2\sin\frac {\alpha}{2}\cos\frac {\beta}{2}\cos\frac {\gamma}{2} \\[20mu]
+\tan \alpha+\tan \beta+\tan \gamma & = \tan \alpha\tan \beta\tan \gamma \\
+\cot \beta\cot \gamma+\cot \gamma\cot \alpha+\cot \alpha\cos \beta  & = 1 \\
+\tan\frac {\beta}{2}\tan\frac {\gamma}{2}+\tan\frac {\gamma}{2}\tan\frac {\alpha}{2}+\tan\frac {\alpha}{2}.\tan\frac {\beta}{2} & = 1 \\
+\cot\frac {\alpha}{2}+\cot\frac {\beta}{2}+\cot\frac {\gamma}{2} & = \cot\frac {\alpha}{2}\cot\frac {\beta}{2}\cot\frac {\gamma}{2}
 \end{aligned}$  
 
 ## Series Expansion
