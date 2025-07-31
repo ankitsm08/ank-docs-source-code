@@ -3,7 +3,6 @@ menuPre: " "
 title: 'Complex Numbers'
 description: 'Complex Numbers'
 weight: 600
-draft: true
 ---
 
 ## Conjugate
